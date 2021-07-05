@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AddSubscriber from "./AddSubscriber";
-import "./common/common.css"
+import "./common/common.css";
+
+
 ReactDOM.render(
-  <AddSubscriber/>, document.getElementById('root')
+  <App/>, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
